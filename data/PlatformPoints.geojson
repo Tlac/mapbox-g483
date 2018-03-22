@@ -1,4 +1,4 @@
-var PlatformPoints = {
+{
    "type":"FeatureCollection",
    "features":[
       {
@@ -631,4 +631,4 @@ var PlatformPoints = {
          }
       }
    ]
-};
+}
