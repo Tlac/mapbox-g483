@@ -1,4 +1,4 @@
-{
+var platformPoints = {
    "type":"FeatureCollection",
    "features":[
       {
@@ -6,14 +6,8 @@
          "properties":{
             "platformNum":1,
             "direction":"Westbound",
-            "busName":[
-               "Trafalgar Road & Hwy 407/ Hamilton GO",
-               "Trafalgar Road & Hwy 407/ Hamilton GO"
-            ],
-            "buses":[
-               "40",
-               "40A"
-            ],
+            "busName":"Trafalgar Road & Hwy 407/ Hamilton GO, Trafalgar Road & Hwy 407/ Hamilton GO",
+            "buses":"40,40A",
             "area": "City Center"
          },
          "geometry":{
@@ -29,14 +23,8 @@
          "properties":{
             "platformNum":2,
             "direction":"Westbound",
-            "busName":[
-               "n/a"
-            ],
-            "buses":[
-               "47",
-               "46",
-               "46A"
-            ],
+            "busName":"n/a",
+            "buses":"47,46,46A",
             "area": "City Center"
          },
          "geometry":{
@@ -52,12 +40,8 @@
          "properties":{
             "platformNum":3,
             "direction":"Westbound",
-            "busName":[
-               "n/a"
-            ],
-            "buses":[
-               "47B"
-            ],
+            "busName":"n/a",
+            "buses":"47B",
             "area": "City Center"
          },
          "geometry":{
@@ -73,15 +57,8 @@
          "properties":{
             "platformNum":4,
             "direction":"Westbound",
-            "busName":[
-               "n/a"
-            ],
-            "buses":[
-               "21",
-               "21A",
-               "P",
-               "45"
-            ],
+            "busName":"n/a",
+            "buses":"21,21A,21P,45",
             "area": "City Center"
          },
          "geometry":{
@@ -97,14 +74,8 @@
          "properties":{
             "platformNum":5,
             "direction":"Westbound",
-            "busName":[
-               "Guelph/Mississauga",
-               "Guelph/Mississauga"
-            ],
-            "buses":[
-               "29",
-               "29B"
-            ],
+            "busName":"Guelph/Mississauga,Guelph/Mississauga",
+            "buses":"29.29B",
             "area": "City Center"
          },
          "geometry":{
@@ -120,14 +91,8 @@
          "properties":{
             "platformNum":6,
             "direction":"Westbound",
-            "busName":[
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga"
-            ],
-            "buses":[
-               "25",
-               "25C"
-            ],
+            "busName":"Waterloo/Mississauga,Waterloo/Mississauga",
+            "buses":"25,25C",
             "area": "City Center"
          },
          "geometry":{
@@ -143,16 +108,8 @@
          "properties":{
             "platformNum":8,
             "direction":"Eastbound",
-            "busName":[
-               "Hwy 407",
-               "Hwy 407",
-               "Hwy 407"
-            ],
-            "buses":[
-               "45",
-               "45A",
-               "47A"
-            ],
+            "busName":"Hwy 407,Hwy 407,Hwy 407",
+            "buses":"45,45A,47A",
             "area": "City Center"
          },
          "geometry":{
@@ -168,14 +125,8 @@
          "properties":{
             "platformNum":9,
             "direction":"Eastbound",
-            "busName":[
-               "Hwy 407",
-               "Hwy 407"
-            ],
-            "buses":[
-               "46",
-               "47"
-            ],
+            "busName":"Hwy 407,Hwy 407",
+            "buses":"46,47",
             "area": "City Center"
          },
          "geometry":{
@@ -191,14 +142,8 @@
          "properties":{
             "platformNum":10,
             "direction":"Eastbound",
-            "busName":[
-               "Pearson Airport/Richmond Hill",
-               "Pearson Airport/Richmond Hill"
-            ],
-            "buses":[
-               "40",
-               "40A"
-            ],
+            "busName":"Pearson Airport/Richmond Hill,Pearson Airport/Richmond Hill",
+            "buses":"40,40A",
             "area": "City Center"
          },
          "geometry":{
@@ -214,16 +159,8 @@
          "properties":{
             "platformNum":11,
             "direction":"Eastbound",
-            "busName":[
-               "Oakville/North York",
-               "Oakville/North York",
-               "Oakville/North York"
-            ],
-            "buses":[
-               "19A",
-               "19B",
-               "19C"
-            ],
+            "busName":"Oakville/North York,Oakville/North York,Oakville/North York",
+            "buses":"19A,19B,19C",
             "area": "City Center"
          },
          "geometry":{
@@ -239,22 +176,8 @@
          "properties":{
             "platformNum":12,
             "direction":"Eastbound",
-            "busName":[
-               "Union Station",
-               "Union Station",
-               "Union Station",
-               "Union Station",
-               "Union Station",
-               "Union Station"
-            ],
-            "buses":[
-               "21",
-               "21A",
-               "21H",
-               "21J",
-               "21K",
-               "21P"
-            ],
+            "busName":"Union Station,Union Station,Union Station,Union Station,Union Station,Union Station",
+            "buses":"21,21A,21H,21J,21K,21P",
             "area": "City Center"
          },
          "geometry":{
@@ -270,12 +193,8 @@
          "properties":{
             "platformNum":1,
             "direction":"n/a",
-            "busName":[
-               "Unloading"
-            ],
-            "buses":[
-
-            ],
+            "busName":"Unloading",
+            "buses":"",
             "area": "York University"
          },
          "geometry":{
@@ -291,14 +210,8 @@
          "properties":{
             "platformNum":2,
             "direction":"Westbound",
-            "busName":[
-               "Meadowvale express",
-               "Waterloo/Hwy 407/York University"
-            ],
-            "buses":[
-               "48A",
-               "25F"
-            ],
+            "busName":"Meadowvale express,Waterloo/Hwy 407/York University",
+            "buses":"48A,25F",
             "area": "York University"
          },
          "geometry":{
@@ -314,18 +227,8 @@
          "properties":{
             "platformNum":3,
             "direction":"Westbound",
-            "busName":[
-               "Bramalea/Meadowvale/U of Guelph",
-               "Bramalea/Meadowvale/U of Guelph",
-               "Bramalea/Meadowvale/U of Guelph",
-               "McMaster"
-            ],
-            "buses":[
-               "48",
-               "48B",
-               "48F",
-               "47F"
-            ],
+            "busName":"Bramalea/Meadowvale/U of Guelph,Bramalea/Meadowvale/U of Guelph,Bramalea/Meadowvale/U of Guelph,McMaster",
+            "buses":"48,48B,48F,47F",
             "area": "York University"
          },
          "geometry":{
@@ -341,10 +244,7 @@
          "properties":{
             "platformNum":4,
             "direction":"Westbound",
-            "busName":[
-               "Sheridan College/Oakville",
-               "Hamilton, Bramalea, Square One, Oakville, Bronte, McMaster"
-            ],
+            "busName":"Sheridan College/Oakville,Hamilton/Bramalea/Square One/Oakville/Bronte/McMaster",
             "buses":[
                "46",
                "47"
@@ -364,14 +264,8 @@
          "properties":{
             "platformNum":5,
             "direction":"Westbound",
-            "busName":[
-               "Square One/Streetsville",
-               "Square One/Streetsville"
-            ],
-            "buses":[
-               "45",
-               "45A"
-            ],
+            "busName":"Square One/Streetsville,Square One/Streetsville",
+            "buses":"45,45A",
             "area": "York University"
          },
          "geometry":{
@@ -387,16 +281,8 @@
          "properties":{
             "platformNum":6,
             "direction":"Eastbound",
-            "busName":[
-               "Richmond Hill/Scarborough Centre/Centennial College/UofT Scarborough/Pickering",
-               "Scarborough GO Terminal",
-               "Centennial College, UofT Scarborough"
-            ],
-            "buses":[
-               "51",
-               "51A",
-               "51C"
-            ],
+            "busName":"Richmond Hill/Scarborough Centre/Centennial College/UofT Scarborough/Pickering,Scarborough GO Terminal,Centennial College/UofT Scarborough",
+            "buses":"51,51A,51C",
             "area": "York University"
          },
          "geometry":{
@@ -412,14 +298,8 @@
          "properties":{
             "platformNum":7,
             "direction":"Eastbound",
-            "busName":[
-               "Pickering GO express",
-               "Markham/Mount Joy"
-            ],
-            "buses":[
-               "51B",
-               "54C"
-            ],
+            "busName":"Pickering GO express,Markham/Mount Joy",
+            "buses":"51B,54C",
             "area": "York University"
          },
          "geometry":{
@@ -435,16 +315,8 @@
          "properties":{
             "platformNum":8,
             "direction":"Eastbound",
-            "busName":[
-               "Richmond Hill Centre/Unionville/Brooklin/UOIT/Durham College/Oshawa",
-               "Richmond Hill Centre/UOIT/Durham College",
-               "Richmond Hill Centre"
-            ],
-            "buses":[
-               "52",
-               "52B",
-               "54"
-            ],
+            "busName":"Richmond Hill Centre/Unionville/Brooklin/UOIT/Durham College/Oshawa,Richmond Hill Centre/UOIT/Durham College,Richmond Hill Centre",
+            "buses":"52,52B,54",
             "area": "York University"
          },
          "geometry":{
@@ -460,18 +332,8 @@
          "properties":{
             "platformNum":1,
             "direction":"Eastbound",
-            "busName":[
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga/York University/Hwy 407/Milton"
-            ],
-            "buses":[
-               "25",
-               "25B",
-               "25C",
-               "25F"
-            ],
+            "busName":"Waterloo/Mississauga,Waterloo/Mississauga,Waterloo/Mississauga,Waterloo/Mississauga/York University/Hwy 407/Milton",
+            "buses":"25,25B,25C,25F",
             "area": "University of Waterloo"
          },
          "geometry":{
@@ -487,18 +349,8 @@
          "properties":{
             "platformNum":1,
             "direction":"Eastbound",
-            "busName":[
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga",
-               "Waterloo/Mississauga/York University/Hwy 407/Milton"
-            ],
-            "buses":[
-               "25",
-               "25C",
-               "25D",
-               "25F"
-            ],
+            "busName":"Waterloo/Mississauga,Waterloo/Mississauga,Waterloo/Mississauga,Waterloo/Mississauga/York University/Hwy 407/Milton",
+            "buses":"25,25C,25D,25F",
             "area": "Wilfrid Laurier University"
          },
          "geometry":{
@@ -514,14 +366,8 @@
          "properties":{
             "platformNum":1,
             "direction":"Eastbound",
-            "busName":[
-               "Waterloo/Mississauga",
-               "Bramalea/Kitchener"
-            ],
-            "buses":[
-               "25",
-               "30"
-            ],
+            "busName":"Waterloo/Mississauga,Bramalea/Kitchener",
+            "buses":"25,30",
             "area": "Kitchener Bus Station"
          },
          "geometry":{
@@ -537,12 +383,8 @@
          "properties":{
             "platformNum":2,
             "direction":"Eastbound",
-            "busName":[
-               "Bramalea/Kitchener"
-            ],
-            "buses":[
-               "30"
-            ],
+            "busName":"Bramalea/Kitchener",
+            "buses":"30",
             "area": "Kitchener GO Train Station"
          },
          "geometry":{
@@ -558,18 +400,8 @@
          "properties":{
             "platformNum":9,
             "direction":"Westbound",
-            "busName":[
-               "407 East",
-               "407 East",
-               "407 East",
-               "407 East"
-            ],
-            "buses":[
-               "51",
-               "52",
-               "52B",
-               "54"
-            ],
+            "busName":"407 East,407 East,407 East,407 East",
+            "buses":"51,52,52B,54",
             "area": "Richmond Hill Centre Terminal"
          },
          "geometry":{
@@ -585,12 +417,8 @@
          "properties":{
             "platformNum":10,
             "direction":"Westbound",
-            "busName":[
-               "Pearson Airport/Square One/Hamilton GO"
-            ],
-            "buses":[
-               "40"
-            ],
+            "busName":"Pearson Airport/Square One/Hamilton GO",
+            "buses":"40",
             "area": "Richmond Hill Centre Terminal"
          },
          "geometry":{
@@ -606,20 +434,8 @@
          "properties":{
             "platformNum":11,
             "direction":"Eastbound",
-            "busName":[
-               "407 East",
-               "407 East",
-               "407 East",
-               "407 East",
-               "407 East"
-            ],
-            "buses":[
-               "51",
-               "51D",
-               "52",
-               "52B",
-               "54"
-            ],
+            "busName":"407 East,407 East,407 East,407 East,407 East",
+            "buses":"51,51D,52,52B,54",
             "area": "Richmond Hill Centre Terminal"
          },
          "geometry":{

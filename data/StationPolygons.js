@@ -1,4 +1,4 @@
-{
+var stationPolygons = {
    "type":"FeatureCollection",
    "features":[
       {
@@ -240,4 +240,4 @@
          }
       }
    ]
-}
+};
